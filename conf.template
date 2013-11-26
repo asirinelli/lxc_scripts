@@ -1,0 +1,16 @@
+## LXC
+root_lxc=/virt/lxc
+template=/virt/templates/debian
+
+## Network
+bridge=lxc0
+ip6_template=xxxx:xxx:xxxx:1::
+ip4_template=10.42.42.
+ip6_gateway=xxxx:xxx:xxxx:1::1
+ip4_gateway=10.42.42.1
+public_ip4=xxx.xxx.xxx.xxx
+
+## DNS
+dns_ip6_1=xxxx:xxx:xxx::x
+dns_ip6_2=xxxx:xxx:x::xx
+domain=example.com
